@@ -6,7 +6,7 @@ function init() {
 }
 function onKeyDownHandler(e) {
   const key = parseInt(e.detail || e.which);
- 
+
   if (key === alphabet[index]) {
     index++;
 
@@ -23,5 +23,5 @@ body.addEventListener('keydown', function(e){
      } else {
        index = 0;
        return;
- 
+
  }
